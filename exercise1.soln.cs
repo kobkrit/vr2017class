@@ -39,13 +39,13 @@ public class GoldMiner : MonoBehaviour {
 		}
 
 		if (Input.GetKeyDown (KeyCode.UpArrow)) {
-			print ("Left Key Pressed.");
+			print ("Up Key Pressed.");
 			loc = loc - new Vector2(0f, 0.5f);
 
 			calculateDistance ();
 		}
 		if (Input.GetKeyDown (KeyCode.DownArrow)) {
-			print ("Right Key Pressed.");
+			print ("Down Key Pressed.");
 			loc = loc + new Vector2(0f, 0.5f);
 
 			calculateDistance ();
